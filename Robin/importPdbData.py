@@ -3,6 +3,7 @@ import gzip
 import csv
 from Bio.PDB import PDBList
 from Bio.PDB.MMCIFParser import MMCIFParser
+from Bio.PDB.PDBParser import PDBParser
 from Bio.SeqRecord import SeqRecord
 from Bio.Seq import Seq
 from Bio.SeqIO import FastaIO
@@ -17,6 +18,10 @@ base_path = os.path.abspath(os.path.dirname(__file__))
 # Define output directory within the base path
 base_output_dir = os.path.join(base_path, "pdb_files")
 os.makedirs(base_output_dir, exist_ok=True)
+
+# Define output directory for PDB format files
+pdb_output_dir = os.path.join(base_output_dir, "pdb_format_files")
+os.makedirs(pdb_output_dir, exist_ok=True)
 
 # Read representatives from a CSV file
 csv_file = os.path.join(base_path, "representatives.csv") # Change to complete file path later
@@ -40,6 +45,7 @@ except KeyError as e:
 # Process each PDB ID and chain
 for pdb_id, chain in representatives:
     try:
+        # Download mmCIF file
         pdb_file = pdb_list.retrieve_pdb_file(
             pdb_id,
             file_format="mmCif",
@@ -47,6 +53,16 @@ for pdb_id, chain in representatives:
             overwrite=True
         )
         print(f"Biopython returned path: {pdb_file}")
+
+        # Download PDB file
+        pdb_file_pdb_format = pdb_list.retrieve_pdb_file(
+            pdb_id,
+            file_format="pdb",
+            pdir=pdb_output_dir,
+            overwrite=True
+        )
+        print(f"Biopython returned path for PDB format: {pdb_file_pdb_format}")
+
     except Exception as e:
         print(f"Error downloading {pdb_id}: {e}")
         continue
