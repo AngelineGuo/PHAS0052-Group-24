@@ -17,7 +17,7 @@ atp_residues = [res for res in model.get_residues() if res.get_resname() == liga
 
 # Compute interacting amino acids with ATP
 ns = PDB.NeighborSearch(list(model.get_atoms()))  # Create a neighbor search object
-interaction_cutoff = 5.0  # Set the binding site distance threshold (unit: Å)
+interaction_cutoff = 4.0  # Set the binding site distance threshold (unit: Å)
 
 interacting_residues = set()
 
@@ -32,6 +32,15 @@ for atp in atp_residues:
 # Sort the residues by sequence number
 sorted_residues = sorted(interacting_residues, key=lambda x: x[1])
 
+# Mapping of three-letter amino acid codes to one-letter codes
+aa_three_to_one = {
+    'ALA': 'A', 'CYS': 'C', 'ASP': 'D', 'GLU': 'E', 'PHE': 'F',
+    'GLY': 'G', 'HIS': 'H', 'ILE': 'I', 'LYS': 'K', 'LEU': 'L',
+    'MET': 'M', 'ASN': 'N', 'PRO': 'P', 'GLN': 'Q', 'ARG': 'R',
+    'SER': 'S', 'THR': 'T', 'VAL': 'V', 'TRP': 'W', 'TYR': 'Y'
+}
+
 # Output the sorted residues
 for resname, resid in sorted_residues:
-    print(f"- {resname} {resid}")
+    one_letter_code = aa_three_to_one.get(resname, '?')  # Get the one-letter code or '?' if not found
+    print(f"- {resname} ({one_letter_code}) {resid}")
