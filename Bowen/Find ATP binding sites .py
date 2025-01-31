@@ -1,10 +1,12 @@
 ## Find binding sites of ATP from experimental PDB data
-
+import os
 from Bio import PDB
+
+base_path = os.path.abspath(os.path.dirname(__file__))
 
 # Parse the PDB file
 pdb_parser = PDB.PDBParser(QUIET=True)
-structure = pdb_parser.get_structure("protein", r"C:\Users\YourName\Documents\example.pdb")
+structure = pdb_parser.get_structure("protein", os.path.join(base_path, "..", "PDB_files/2j9c_chain_A.pdb"))
 
 # Get the model and ligand (ATP)
 model = structure[0]  # Select the first model
@@ -17,10 +19,19 @@ atp_residues = [res for res in model.get_residues() if res.get_resname() == liga
 ns = PDB.NeighborSearch(list(model.get_atoms()))  # Create a neighbor search object
 interaction_cutoff = 5.0  # Set the binding site distance threshold (unit: Å)
 
+interacting_residues = set()
+
 for atp in atp_residues:
     print(f"ATP binding site ({atp}) interacting amino acids:")
     for atom in atp.get_atoms():
         nearby_atoms = ns.search(atom.coord, interaction_cutoff)
         nearby_residues = {atom.get_parent() for atom in nearby_atoms if atom.get_parent().get_id()[0] == " "}  # Filter protein residues
         for res in nearby_residues:
-            print(f"- {res.get_resname()} {res.get_id()[1]}")  # Output amino acid name and sequence number
+            interacting_residues.add((res.get_resname(), res.get_id()[1]))  # Store unique amino acid name and sequence number
+
+# Sort the residues by sequence number
+sorted_residues = sorted(interacting_residues, key=lambda x: x[1])
+
+# Output the sorted residues
+for resname, resid in sorted_residues:
+    print(f"- {resname} {resid}")
