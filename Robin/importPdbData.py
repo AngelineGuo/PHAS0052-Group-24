@@ -15,16 +15,20 @@ pdb_list = PDBList(server="https://files.rcsb.org/")
 # Define current Dir as base path
 base_path = os.path.abspath(os.path.dirname(__file__))
 
-# Define output directory within the base path
-base_output_dir = os.path.join(base_path, "pdb_files")
-os.makedirs(base_output_dir, exist_ok=True)
+# Define output directory for files
+files_output_dir = os.path.join(base_path, "..", "Files")
+os.makedirs(files_output_dir, exist_ok=True)
 
-# Define output directory for PDB format files
-pdb_output_dir = os.path.join(base_output_dir, "pdb_format_files")
-os.makedirs(pdb_output_dir, exist_ok=True)
+# Define output directories for fasta and cif format files
+
+fasta_output_dir = os.path.join(files_output_dir, "fasta")
+os.makedirs(fasta_output_dir, exist_ok=True)
+
+cif_output_dir = os.path.join(files_output_dir, "cif")
+os.makedirs(cif_output_dir, exist_ok=True)
 
 # Read representatives from a CSV file
-csv_file = os.path.join(base_path, "representatives.csv") # Change to complete file path later
+csv_file = os.path.join(base_path, "..", "Files", "representatives.csv") # Change to complete file path later
 representatives = []
 
 try:
@@ -49,19 +53,19 @@ for pdb_id, chain in representatives:
         pdb_file = pdb_list.retrieve_pdb_file(
             pdb_id,
             file_format="mmCif",
-            pdir=base_output_dir,
+            pdir=cif_output_dir,
             overwrite=True
         )
         print(f"Biopython returned path: {pdb_file}")
 
         # Download PDB file
-        pdb_file_pdb_format = pdb_list.retrieve_pdb_file(
-            pdb_id,
-            file_format="pdb",
-            pdir=pdb_output_dir,
-            overwrite=True
-        )
-        print(f"Biopython returned path for PDB format: {pdb_file_pdb_format}")
+        # pdb_file_pdb_format = pdb_list.retrieve_pdb_file(
+        #     pdb_id,
+        #     file_format="pdb",
+        #     pdir=pdb_output_dir,
+        #     overwrite=True
+        # )
+        # print(f"Biopython returned path for PDB format: {pdb_file_pdb_format}")
 
     except Exception as e:
         print(f"Error downloading {pdb_id}: {e}")
@@ -108,7 +112,7 @@ for pdb_id, chain in representatives:
         # Save sequence as FASTA
         if sequence:
             fasta_sequence = "".join(sequence)
-            fasta_file = os.path.join(base_output_dir, f"{pdb_id}_{chain}.fasta")
+            fasta_file = os.path.join(fasta_output_dir, f"{pdb_id}_{chain}.fasta")
             record = SeqRecord(Seq(fasta_sequence), id=f"{pdb_id}_{chain}", description="")
             with open(fasta_file, "w") as out_fasta:
                 FastaIO.FastaWriter(out_fasta).write_record(record)
