@@ -6,7 +6,7 @@ base_path = os.path.abspath(os.path.dirname(__file__))
 
 # Parse the PDB file
 pdb_parser = PDB.PDBParser(QUIET=True)
-structure = pdb_parser.get_structure("protein", os.path.join(base_path, "..", "PDB_files/2j9c_chain_A.pdb"))
+structure = pdb_parser.get_structure("protein", os.path.join(base_path, "../Files/pdb/2j9c_chain_A.pdb"))
 
 # Get the model and ligand (ATP)
 model = structure[0]  # Select the first model
