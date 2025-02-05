@@ -9,7 +9,6 @@ fasta_files_dir = os.path.join(base_dir, "..", "Files", "fasta")  # Directory co
 fasta_files = []
 for f in os.listdir(fasta_files_dir):
     fasta_files.append(os.path.join(fasta_files_dir, f))
-print(fasta_files)
 
 # URL for form submission (action URL from the form)
 url = "http://biomine.cs.vcu.edu/servers/biomine.php?name=NsitePred"
@@ -81,5 +80,3 @@ def submit_fasta(file_path, email):
 # Process each FASTA file
 for fasta_file in fasta_files:
     submit_fasta(fasta_file, your_email)
-    
-# Results for 2j9c_A.fasta: http://biomine.cs.vcu.edu/webresults/NsitePred/20250131092739/results.html
