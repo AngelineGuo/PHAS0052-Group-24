@@ -3,7 +3,7 @@ from Bio import PDB
 # Parse the PDB file
 pdb_parser = PDB.PDBParser(QUIET=True)
 structure = pdb_parser.get_structure("protein",
-                                     r"C:\Users\ybw14\Desktop\大三项目\extracted_chains\extracted_chains\2j9c_chainA.pdb")
+                                     r"C:")
 
 # Get the model and ligand (ATP)
 model = structure[0]  # Select the first model
