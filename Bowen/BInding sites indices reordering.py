@@ -3,7 +3,7 @@ from Bio import PDB, pairwise2, SeqIO
 
 
 # === Step 1: Parse the PDB file and extract ATP binding sites ===
-def extract_atp_binding_sites(pdb_file, ligand_name="ATP", cutoff=5.0): # 5.0 A
+def extract_atp_binding_sites(pdb_file, ligand_name="ATP", cutoff=5.0):  # Set the binding site distance threshold (unit: Å)
     """
     Parse the PDB structure and find residues interacting with ATP.
     Returns:
