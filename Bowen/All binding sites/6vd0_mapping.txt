@@ -1,3 +1,0 @@
-Results for 6vd0.pdb and 6vd0.fasta (ATP binding site mapping)
-Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
-------------------------------------------------------------

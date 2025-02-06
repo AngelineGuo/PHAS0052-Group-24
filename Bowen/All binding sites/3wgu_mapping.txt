@@ -1,3 +1,0 @@
-Results for 3wgu.pdb and 3wgu.fasta (ATP binding site mapping)
-Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
-------------------------------------------------------------

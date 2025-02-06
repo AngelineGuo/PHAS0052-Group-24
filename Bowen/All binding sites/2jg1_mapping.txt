@@ -1,3 +1,0 @@
-Results for 2jg1.pdb and 2jg1.fasta (ATP binding site mapping)
-Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
-------------------------------------------------------------

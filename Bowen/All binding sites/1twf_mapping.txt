@@ -1,3 +1,0 @@
-Results for 1twf.pdb and 1twf.fasta (ATP binding site mapping)
-Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
-------------------------------------------------------------

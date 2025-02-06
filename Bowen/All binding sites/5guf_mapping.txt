@@ -1,3 +1,0 @@
-Results for 5guf.pdb and 5guf.fasta (ATP binding site mapping)
-Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
-------------------------------------------------------------

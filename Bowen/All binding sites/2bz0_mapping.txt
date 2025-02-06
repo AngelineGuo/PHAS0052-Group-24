@@ -1,3 +1,0 @@
-Results for 2bz0.pdb and 2bz0.fasta (ATP binding site mapping)
-Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
-------------------------------------------------------------
