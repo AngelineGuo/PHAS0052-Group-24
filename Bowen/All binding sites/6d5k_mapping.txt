@@ -1,0 +1,9 @@
+Results for 6d5k.pdb and 6d5k.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+ARG (R) PDB: 190 -> FASTA: 136
+GLU (E) PDB: 193 -> FASTA: 139
+ARG (R) PDB: 194 -> FASTA: 140
+ASN (N) PDB: 214 -> FASTA: 160
+SER (S) PDB: 217 -> FASTA: 163
+ASP (D) PDB: 218 -> FASTA: 164

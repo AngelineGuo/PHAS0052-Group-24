@@ -1,0 +1,33 @@
+Results for 7tgk.pdb and 7tgk.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+MET (M) PDB: 149 -> FASTA: 169
+GLU (E) PDB: 151 -> FASTA: 171
+GLY (G) PDB: 152 -> FASTA: 172
+HIS (H) PDB: 153 -> FASTA: 173
+PRO (P) PDB: 154 -> FASTA: 174
+ASN (N) PDB: 159 -> FASTA: 179
+ASN (N) PDB: 160 -> FASTA: 180
+ARG (R) PDB: 162 -> FASTA: 182
+GLN (Q) PDB: 274 -> FASTA: 294
+SER (S) PDB: 275 -> FASTA: 295
+ILE (I) PDB: 276 -> FASTA: 296
+ARG (R) PDB: 277 -> FASTA: 297
+THR (T) PDB: 278 -> FASTA: 298
+LYS (K) PDB: 291 -> FASTA: 311
+ASN (N) PDB: 298 -> FASTA: 318
+MET (M) PDB: 299 -> FASTA: 319
+ARG (R) PDB: 303 -> FASTA: 323
+ARG (R) PDB: 370 -> FASTA: 390
+ALA (A) PDB: 387 -> FASTA: 407
+VAL (V) PDB: 390 -> FASTA: 410
+MET (M) PDB: 438 -> FASTA: 458
+HIS (H) PDB: 440 -> FASTA: 460
+GLY (G) PDB: 441 -> FASTA: 461
+GLU (E) PDB: 442 -> FASTA: 462
+ASN (N) PDB: 443 -> FASTA: 463
+LYS (K) PDB: 459 -> FASTA: 479
+ASP (D) PDB: 460 -> FASTA: 480
+GLU (E) PDB: 463 -> FASTA: 483
+GLU (E) PDB: 464 -> FASTA: 484
+PHE (F) PDB: 502 -> FASTA: 522

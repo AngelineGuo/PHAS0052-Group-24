@@ -1,0 +1,30 @@
+Results for 1d4x.pdb and 1d4x.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+ASP (D) PDB: 11 -> FASTA: 11
+ASN (N) PDB: 12 -> FASTA: 12
+GLY (G) PDB: 13 -> FASTA: 13
+SER (S) PDB: 14 -> FASTA: 14
+GLY (G) PDB: 15 -> FASTA: 15
+MET (M) PDB: 16 -> FASTA: 16
+LYS (K) PDB: 18 -> FASTA: 18
+GLY (G) PDB: 74 -> FASTA: 74
+GLN (Q) PDB: 137 -> FASTA: 137
+ASP (D) PDB: 154 -> FASTA: 154
+SER (S) PDB: 155 -> FASTA: 155
+GLY (G) PDB: 156 -> FASTA: 156
+ASP (D) PDB: 157 -> FASTA: 157
+GLY (G) PDB: 158 -> FASTA: 158
+VAL (V) PDB: 159 -> FASTA: 159
+GLY (G) PDB: 182 -> FASTA: 182
+ARG (R) PDB: 183 -> FASTA: 183
+THR (T) PDB: 186 -> FASTA: 186
+ARG (R) PDB: 210 -> FASTA: 210
+LYS (K) PDB: 213 -> FASTA: 213
+GLU (E) PDB: 214 -> FASTA: 214
+GLY (G) PDB: 301 -> FASTA: 301
+GLY (G) PDB: 302 -> FASTA: 302
+THR (T) PDB: 303 -> FASTA: 303
+MET (M) PDB: 305 -> FASTA: 305
+TYR (Y) PDB: 306 -> FASTA: 306
+LYS (K) PDB: 336 -> FASTA: 336

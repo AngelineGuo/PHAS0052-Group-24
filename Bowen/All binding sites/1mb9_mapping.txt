@@ -1,0 +1,25 @@
+Results for 1mb9.pdb and 1mb9.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+VAL (V) PDB: 247 -> FASTA: 247
+LEU (L) PDB: 248 -> FASTA: 248
+SER (S) PDB: 249 -> FASTA: 249
+GLY (G) PDB: 251 -> FASTA: 251
+ILE (I) PDB: 252 -> FASTA: 252
+ASP (D) PDB: 253 -> FASTA: 253
+SER (S) PDB: 254 -> FASTA: 254
+SER (S) PDB: 255 -> FASTA: 255
+VAL (V) PDB: 271 -> FASTA: 271
+SER (S) PDB: 272 -> FASTA: 272
+MET (M) PDB: 273 -> FASTA: 273
+GLY (G) PDB: 274 -> FASTA: 274
+PRO (P) PDB: 329 -> FASTA: 329
+LEU (L) PDB: 330 -> FASTA: 330
+LEU (L) PDB: 333 -> FASTA: 333
+THR (T) PDB: 346 -> FASTA: 346
+GLY (G) PDB: 347 -> FASTA: 347
+TYR (Y) PDB: 348 -> FASTA: 348
+ASP (D) PDB: 351 -> FASTA: 351
+LYS (K) PDB: 423 -> FASTA: 423
+ARG (R) PDB: 427 -> FASTA: 427
+LYS (K) PDB: 443 -> FASTA: 443

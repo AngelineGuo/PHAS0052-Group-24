@@ -1,0 +1,3 @@
+Results for 6txe.pdb and 6txe.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------

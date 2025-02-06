@@ -1,0 +1,20 @@
+Results for 1j09.pdb and 1j09.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+THR (T) PDB: 11 -> FASTA: 11
+HIS (H) PDB: 15 -> FASTA: 15
+GLY (G) PDB: 17 -> FASTA: 17
+THR (T) PDB: 18 -> FASTA: 18
+TYR (Y) PDB: 20 -> FASTA: 20
+ILE (I) PDB: 21 -> FASTA: 21
+ALA (A) PDB: 206 -> FASTA: 206
+GLU (E) PDB: 208 -> FASTA: 208
+TRP (W) PDB: 209 -> FASTA: 209
+PRO (P) PDB: 234 -> FASTA: 234
+LEU (L) PDB: 235 -> FASTA: 235
+LEU (L) PDB: 236 -> FASTA: 236
+LYS (K) PDB: 243 -> FASTA: 243
+ILE (I) PDB: 244 -> FASTA: 244
+SER (S) PDB: 245 -> FASTA: 245
+LYS (K) PDB: 246 -> FASTA: 246
+ARG (R) PDB: 247 -> FASTA: 247

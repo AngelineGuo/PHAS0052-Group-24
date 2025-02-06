@@ -1,0 +1,16 @@
+Results for 1z0s.pdb and 1z0s.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+ASP (D) PDB: 49 -> FASTA: 78
+GLY (G) PDB: 50 -> FASTA: 79
+LEU (L) PDB: 53 -> FASTA: 82
+ARG (R) PDB: 54 -> FASTA: 83
+ARG (R) PDB: 72 -> FASTA: 101
+ASN (N) PDB: 115 -> FASTA: 144
+GLU (E) PDB: 116 -> FASTA: 145
+GLY (G) PDB: 157 -> FASTA: 186
+TYR (Y) PDB: 158 -> FASTA: 187
+SER (S) PDB: 161 -> FASTA: 190
+ASP (D) PDB: 209 -> FASTA: 238
+GLY (G) PDB: 210 -> FASTA: 239
+GLN (Q) PDB: 211 -> FASTA: 240

@@ -1,0 +1,35 @@
+Results for 7nsd.pdb and 7nsd.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+GLU (E) PDB: 5 -> FASTA: 6
+GLU (E) PDB: 7 -> FASTA: 8
+LYS (K) PDB: 9 -> FASTA: 10
+GLN (Q) PDB: 36 -> FASTA: 37
+ASP (D) PDB: 38 -> FASTA: 39
+TYR (Y) PDB: 40 -> FASTA: 41
+TYR (Y) PDB: 41 -> FASTA: 42
+ASN (N) PDB: 42 -> FASTA: 43
+PHE (F) PDB: 48 -> FASTA: 49
+ARG (R) PDB: 49 -> FASTA: 50
+ASP (D) PDB: 52 -> FASTA: 53
+GLU (E) PDB: 53 -> FASTA: 54
+ALA (A) PDB: 54 -> FASTA: 55
+LEU (L) PDB: 55 -> FASTA: 56
+ARG (R) PDB: 56 -> FASTA: 57
+ARG (R) PDB: 58 -> FASTA: 59
+LYS (K) PDB: 69 -> FASTA: 70
+LYS (K) PDB: 72 -> FASTA: 73
+LYS (K) PDB: 78 -> FASTA: 79
+ARG (R) PDB: 80 -> FASTA: 81
+GLU (E) PDB: 82 -> FASTA: 83
+SER (S) PDB: 105 -> FASTA: 106
+LYS (K) PDB: 110 -> FASTA: 111
+ARG (R) PDB: 112 -> FASTA: 113
+ASP (D) PDB: 125 -> FASTA: 126
+GLU (E) PDB: 135 -> FASTA: 136
+GLU (E) PDB: 137 -> FASTA: 138
+LYS (K) PDB: 166 -> FASTA: 167
+SER (S) PDB: 167 -> FASTA: 168
+TYR (Y) PDB: 168 -> FASTA: 169
+LEU (L) PDB: 169 -> FASTA: 170
+GLU (E) PDB: 170 -> FASTA: 171

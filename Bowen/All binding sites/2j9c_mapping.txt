@@ -1,0 +1,19 @@
+Results for 2j9c.pdb and 2j9c.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+ILE (I) PDB: 7 -> FASTA: 9
+LYS (K) PDB: 34 -> FASTA: 36
+GLY (G) PDB: 35 -> FASTA: 37
+ARG (R) PDB: 36 -> FASTA: 38
+GLY (G) PDB: 37 -> FASTA: 39
+VAL (V) PDB: 38 -> FASTA: 40
+GLU (E) PDB: 44 -> FASTA: 46
+ILE (I) PDB: 56 -> FASTA: 58
+LYS (K) PDB: 58 -> FASTA: 60
+ASN (N) PDB: 85 -> FASTA: 87
+PRO (P) PDB: 86 -> FASTA: 88
+GLY (G) PDB: 87 -> FASTA: 89
+ASP (D) PDB: 88 -> FASTA: 90
+GLY (G) PDB: 89 -> FASTA: 91
+LYS (K) PDB: 90 -> FASTA: 92
+PHE (F) PDB: 92 -> FASTA: 94

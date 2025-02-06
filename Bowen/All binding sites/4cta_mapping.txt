@@ -1,0 +1,28 @@
+Results for 4cta.pdb and 4cta.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+GLY (G) PDB: 8 -> FASTA: 8
+VAL (V) PDB: 9 -> FASTA: 9
+GLU (E) PDB: 12 -> FASTA: 12
+LEU (L) PDB: 13 -> FASTA: 13
+THR (T) PDB: 18 -> FASTA: 18
+LEU (L) PDB: 19 -> FASTA: 19
+ASP (D) PDB: 20 -> FASTA: 20
+THR (T) PDB: 21 -> FASTA: 21
+ASN (N) PDB: 22 -> FASTA: 22
+THR (T) PDB: 23 -> FASTA: 23
+SER (S) PDB: 67 -> FASTA: 67
+GLY (G) PDB: 68 -> FASTA: 68
+GLY (G) PDB: 69 -> FASTA: 69
+LEU (L) PDB: 70 -> FASTA: 70
+GLY (G) PDB: 71 -> FASTA: 71
+PRO (P) PDB: 72 -> FASTA: 72
+ASP (D) PDB: 76 -> FASTA: 76
+GLN (Q) PDB: 118 -> FASTA: 118
+ALA (A) PDB: 135 -> FASTA: 135
+LEU (L) PDB: 150 -> FASTA: 150
+PRO (P) PDB: 151 -> FASTA: 151
+GLY (G) PDB: 152 -> FASTA: 152
+PRO (P) PDB: 153 -> FASTA: 153
+PRO (P) PDB: 154 -> FASTA: 154
+GLU (E) PDB: 156 -> FASTA: 156

@@ -1,0 +1,33 @@
+Results for 3amt.pdb and 3amt.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+ASP (D) PDB: 8 -> FASTA: 28
+ASP (D) PDB: 9 -> FASTA: 29
+THR (T) PDB: 10 -> FASTA: 30
+ASP (D) PDB: 11 -> FASTA: 31
+CYS (C) PDB: 17 -> FASTA: 37
+THR (T) PDB: 19 -> FASTA: 38
+ARG (R) PDB: 44 -> FASTA: 64
+LEU (L) PDB: 45 -> FASTA: 65
+ASN (N) PDB: 46 -> FASTA: 66
+ILE (I) PDB: 49 -> FASTA: 69
+TYR (Y) PDB: 51 -> FASTA: 71
+LYS (K) PDB: 52 -> FASTA: 72
+THR (T) PDB: 53 -> FASTA: 73
+ARG (R) PDB: 54 -> FASTA: 74
+GLY (G) PDB: 55 -> FASTA: 75
+ASN (N) PDB: 56 -> FASTA: 76
+GLY (G) PDB: 57 -> FASTA: 77
+ALA (A) PDB: 58 -> FASTA: 78
+ASN (N) PDB: 91 -> FASTA: 111
+LYS (K) PDB: 111 -> FASTA: 131
+ALA (A) PDB: 112 -> FASTA: 132
+ILE (I) PDB: 113 -> FASTA: 133
+ASP (D) PDB: 115 -> FASTA: 135
+VAL (V) PDB: 116 -> FASTA: 136
+LEU (L) PDB: 117 -> FASTA: 137
+ARG (R) PDB: 140 -> FASTA: 160
+GLY (G) PDB: 141 -> FASTA: 161
+LEU (L) PDB: 142 -> FASTA: 162
+ILE (I) PDB: 143 -> FASTA: 163
+GLY (G) PDB: 144 -> FASTA: 164

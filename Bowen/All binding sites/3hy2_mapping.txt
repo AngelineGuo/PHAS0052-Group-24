@@ -1,0 +1,16 @@
+Results for 3hy2.pdb and 3hy2.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+SER (S) PDB: 55 -> FASTA: N/A
+LYS (K) PDB: 61 -> FASTA: 67
+SER (S) PDB: 64 -> FASTA: 77
+LEU (L) PDB: 65 -> FASTA: N/A
+THR (T) PDB: 68 -> FASTA: 90
+SER (S) PDB: 75 -> FASTA: N/A
+VAL (V) PDB: 76 -> FASTA: 105
+PRO (P) PDB: 77 -> FASTA: N/A
+GLY (G) PDB: 97 -> FASTA: N/A
+GLY (G) PDB: 98 -> FASTA: N/A
+ALA (A) PDB: 99 -> FASTA: N/A
+HIS (H) PDB: 100 -> FASTA: N/A
+ARG (R) PDB: 101 -> FASTA: 128

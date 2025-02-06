@@ -1,0 +1,3 @@
+Results for 4amf.pdb and 4amf.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------

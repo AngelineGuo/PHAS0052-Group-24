@@ -1,0 +1,13 @@
+Results for 8dbj.pdb and 8dbj.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+ARG (R) PDB: 96 -> FASTA: 96
+GLN (Q) PDB: 97 -> FASTA: 97
+ASP (D) PDB: 98 -> FASTA: 98
+LYS (K) PDB: 99 -> FASTA: 99
+ASP (D) PDB: 101 -> FASTA: 101
+HIS (H) PDB: 130 -> FASTA: 130
+ASP (D) PDB: 171 -> FASTA: 171
+GLY (G) PDB: 173 -> FASTA: 173
+GLY (G) PDB: 174 -> FASTA: 174
+ASP (D) PDB: 224 -> FASTA: 224

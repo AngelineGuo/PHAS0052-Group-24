@@ -1,0 +1,3 @@
+Results for 3f2b.pdb and 3f2b.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------

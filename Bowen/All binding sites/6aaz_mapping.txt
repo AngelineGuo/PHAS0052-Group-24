@@ -1,0 +1,21 @@
+Results for 6aaz.pdb and 6aaz.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+ARG (R) PDB: 330 -> FASTA: 150
+GLU (E) PDB: 332 -> FASTA: 152
+GLU (E) PDB: 337 -> FASTA: 157
+HIS (H) PDB: 338 -> FASTA: 158
+LEU (L) PDB: 339 -> FASTA: 159
+GLU (E) PDB: 340 -> FASTA: 160
+PHE (F) PDB: 342 -> FASTA: 162
+MET (M) PDB: 344 -> FASTA: 164
+GLU (E) PDB: 396 -> FASTA: 216
+LEU (L) PDB: 397 -> FASTA: 217
+SER (S) PDB: 398 -> FASTA: 218
+SER (S) PDB: 399 -> FASTA: 219
+GLY (G) PDB: 421 -> FASTA: 241
+PHE (F) PDB: 422 -> FASTA: 242
+GLY (G) PDB: 423 -> FASTA: 243
+GLU (E) PDB: 425 -> FASTA: 245
+ARG (R) PDB: 426 -> FASTA: 246
+ILE (I) PDB: 437 -> FASTA: 257

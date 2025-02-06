@@ -1,0 +1,30 @@
+Results for 2aqx.pdb and 2aqx.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+TRP (W) PDB: 666 -> FASTA: 17
+ILE (I) PDB: 667 -> FASTA: 18
+GLN (Q) PDB: 668 -> FASTA: 19
+LEU (L) PDB: 669 -> FASTA: 20
+ALA (A) PDB: 670 -> FASTA: 21
+GLY (G) PDB: 671 -> FASTA: 22
+HIS (H) PDB: 672 -> FASTA: 23
+SER (S) PDB: 675 -> FASTA: 26
+PHE (F) PDB: 676 -> FASTA: 27
+ILE (I) PDB: 684 -> FASTA: 35
+LYS (K) PDB: 686 -> FASTA: 37
+GLU (E) PDB: 692 -> FASTA: 43
+PRO (P) PDB: 709 -> FASTA: 60
+MET (M) PDB: 725 -> FASTA: 76
+ASP (D) PDB: 726 -> FASTA: 77
+ASP (D) PDB: 727 -> FASTA: 78
+LEU (L) PDB: 728 -> FASTA: 79
+LEU (L) PDB: 729 -> FASTA: 80
+VAL (V) PDB: 737 -> FASTA: 88
+ASP (D) PDB: 739 -> FASTA: 90
+LYS (K) PDB: 741 -> FASTA: 92
+GLU (E) PDB: 810 -> FASTA: 161
+GLY (G) PDB: 874 -> FASTA: 225
+LEU (L) PDB: 878 -> FASTA: 229
+ILE (I) PDB: 880 -> FASTA: 231
+ILE (I) PDB: 892 -> FASTA: 243
+ASP (D) PDB: 893 -> FASTA: 244

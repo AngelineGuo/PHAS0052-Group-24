@@ -1,0 +1,21 @@
+Results for 3zcb.pdb and 3zcb.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+PHE (F) PDB: 68 -> FASTA: 68
+SER (S) PDB: 88 -> FASTA: 88
+PHE (F) PDB: 90 -> FASTA: 90
+ASN (N) PDB: 133 -> FASTA: 133
+HIS (H) PDB: 136 -> FASTA: 136
+ARG (R) PDB: 139 -> FASTA: 139
+GLU (E) PDB: 140 -> FASTA: 140
+GLY (G) PDB: 141 -> FASTA: 141
+ASN (N) PDB: 142 -> FASTA: 142
+GLY (G) PDB: 143 -> FASTA: 143
+ARG (R) PDB: 144 -> FASTA: 144
+THR (T) PDB: 145 -> FASTA: 145
+ARG (R) PDB: 147 -> FASTA: 147
+MET (M) PDB: 171 -> FASTA: 171
+THR (T) PDB: 172 -> FASTA: 172
+SER (S) PDB: 175 -> FASTA: 175
+ILE (I) PDB: 176 -> FASTA: 176
+TYR (Y) PDB: 179 -> FASTA: 179

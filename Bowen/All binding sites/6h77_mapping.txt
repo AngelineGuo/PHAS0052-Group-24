@@ -1,0 +1,28 @@
+Results for 6h77.pdb and 6h77.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+VAL (V) PDB: 79 -> FASTA: 44
+GLY (G) PDB: 80 -> FASTA: 45
+VAL (V) PDB: 81 -> FASTA: 46
+GLY (G) PDB: 82 -> FASTA: 47
+GLY (G) PDB: 83 -> FASTA: 48
+VAL (V) PDB: 84 -> FASTA: 49
+PHE (F) PDB: 103 -> FASTA: 68
+ASP (D) PDB: 104 -> FASTA: 69
+TYR (Y) PDB: 105 -> FASTA: 70
+ASP (D) PDB: 106 -> FASTA: 71
+ASN (N) PDB: 112 -> FASTA: 77
+ARG (R) PDB: 115 -> FASTA: 80
+LYS (K) PDB: 127 -> FASTA: 92
+TYR (Y) PDB: 149 -> FASTA: 114
+ASN (N) PDB: 150 -> FASTA: 115
+ILE (I) PDB: 151 -> FASTA: 116
+THR (T) PDB: 152 -> FASTA: 117
+CYS (C) PDB: 181 -> FASTA: 146
+VAL (V) PDB: 182 -> FASTA: 147
+ASP (D) PDB: 183 -> FASTA: 148
+ASN (N) PDB: 184 -> FASTA: 149
+ALA (A) PDB: 187 -> FASTA: 152
+ALA (A) PDB: 251 -> FASTA: 216
+SER (S) PDB: 253 -> FASTA: 218
+MET (M) PDB: 258 -> FASTA: 223

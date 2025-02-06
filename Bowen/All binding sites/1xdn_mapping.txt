@@ -1,0 +1,27 @@
+Results for 1xdn.pdb and 1xdn.fasta (ATP binding site mapping)
+Format: PDB residue three-letter name (one-letter) PDB ID -> FASTA position
+------------------------------------------------------------
+TYR (Y) PDB: 58 -> FASTA: 11
+ILE (I) PDB: 59 -> FASTA: 12
+GLU (E) PDB: 60 -> FASTA: 13
+ILE (I) PDB: 61 -> FASTA: 14
+CYS (C) PDB: 85 -> FASTA: 38
+GLU (E) PDB: 86 -> FASTA: 39
+LYS (K) PDB: 87 -> FASTA: 40
+VAL (V) PDB: 88 -> FASTA: 41
+HIS (H) PDB: 89 -> FASTA: 42
+GLY (G) PDB: 90 -> FASTA: 43
+THR (T) PDB: 91 -> FASTA: 44
+ASN (N) PDB: 92 -> FASTA: 45
+ARG (R) PDB: 111 -> FASTA: 64
+GLY (G) PDB: 158 -> FASTA: 111
+GLU (E) PDB: 159 -> FASTA: 112
+GLN (Q) PDB: 193 -> FASTA: 146
+PHE (F) PDB: 207 -> FASTA: 160
+PHE (F) PDB: 209 -> FASTA: 162
+ALA (A) PDB: 243 -> FASTA: 196
+GLU (E) PDB: 283 -> FASTA: 236
+VAL (V) PDB: 286 -> FASTA: 239
+ILE (I) PDB: 305 -> FASTA: 258
+LYS (K) PDB: 307 -> FASTA: 260
+ARG (R) PDB: 309 -> FASTA: 262
