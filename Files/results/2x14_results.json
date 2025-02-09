@@ -1,0 +1,11 @@
+{
+    "True Positives": 0,
+    "False Positives": 13,
+    "True Negatives": 403,
+    "False Negatives": 0,
+    "Accuracy": 0.969,
+    "Precision": 0.0,
+    "Recall": 0.0,
+    "F1-Score": 0.0,
+    "AUC": NaN
+}
