@@ -1,0 +1,24 @@
+[{
+ "name": "AlphaFold_6AAZ_A",
+ "modelSeeds": [
+  "1313885049"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "GSHMASAPALTKSQTDRLEVLLNPKDEISLNSGKPFRELESELLSRRKKDLQQIYAEERENYLGKLEREITRFFVDRGFLEIKSPILIPLEYIERMGIDNDTELSKQIFRVDKNFCLRPMLAPNLANYLRKLDRALPDPIKIFEIGPCYRKESDGKEHLEEFTMLNFCQMGSGCTRENLESIITDFLNHLGIDFKIVGDSCMVFGDTLDVMHGDLELSSAVVGPIPLDREWGIDKPWIGAGFGLERLLKVKHDFKNIKRAARSGSYYNGISTNL",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "ligand": {
+    "ligand": "CCD_ATP",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]

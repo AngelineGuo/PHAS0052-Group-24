@@ -1,0 +1,24 @@
+[{
+ "name": "AlphaFold_1FIT_A",
+ "modelSeeds": [
+  "1086262612"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "MSFRFGQHLIKPSVVFLKTELSFALVNRKPVVPGHVLVCPLRPVERFHDLRPDEVADLFQTTQRVGTVVEKHFHGTSLTFSMQDGPEAGQTVKHVHVHVLPRKAGDFHRNDSIYEELQKHDKEDFPASWRSEEEMAAEAAALRVYFQ",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "ligand": {
+    "ligand": "CCD_ATP",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]

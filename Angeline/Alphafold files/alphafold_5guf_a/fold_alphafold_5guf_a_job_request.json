@@ -1,0 +1,24 @@
+[{
+ "name": "AlphaFold_5GUF_A",
+ "modelSeeds": [
+  "387299913"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "MALELAVDWRIDNILEAIILMLPAMIANATPVVAGGRRPVDMGVVLPDGRRLLGDGKTIEGLLAGFAAGSAAGVLAALASGNMLLAVHSPAIALGALAGDMAGSFVKRRLGIERGRPAPLLDQLDFYLGALAVSIALGYTWTPRVAVEAAAAVLLLHLAANITAYLLGLKKVPWLEHHHHHH",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "ligand": {
+    "ligand": "CCD_ATP",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]

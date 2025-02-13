@@ -1,0 +1,24 @@
+[{
+ "name": "AlphaFold_3ZCB_A",
+ "modelSeeds": [
+  "815224303"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "VRKYEGSNDPYTDPETGVMYNLLGIKDQARLERVESAFAYIRSFELGRTSISGKFDLDHMKKIHKKLFGDVYEWAGKTRLVDIVKDNSKFAHYTQIESYAPQITQQLAREQHLRGLDANEFSQRAGYYMGELNALHPFREGNGRTLREFIWQLAREAGYHIDWDRVERQEMTRASIESYYGNSDLMSALIRRNLTEFT",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "ligand": {
+    "ligand": "CCD_ATP",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]

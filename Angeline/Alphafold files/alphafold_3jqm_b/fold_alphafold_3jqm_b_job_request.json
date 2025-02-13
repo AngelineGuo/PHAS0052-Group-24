@@ -1,0 +1,24 @@
+[{
+ "name": "AlphaFold_3JQM_B",
+ "modelSeeds": [
+  "1289384697"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "MDLTHFQDGRPRMVDVTEKPETFRTATAEAFVELTEEALSALEKGGVGKGDPLVVAQLAGILAAKKTADLIPLCHPLPLTGVEVRVELLKAEKRVRIEATVKTKAETGVEMEAMTACAVAALTVYDMLKAASKGLVISQVRLLHKAGGKSGEWRREQ",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "ligand": {
+    "ligand": "CCD_ATP",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]

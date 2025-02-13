@@ -1,0 +1,24 @@
+[{
+ "name": "AlphaFold_7D8I_A",
+ "modelSeeds": [
+  "711021581"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "MVRESIPKEGENIKIQSYKHDGKIHRVWSETTILKGTDHVVIGGNDHTLVTESDGRTWITREPAIVYFHSEYWFNVICMFREDGIYYYCNLSSPFVCDEEALKYIDYDLDIKVYPNGKYHLLDEDEYEQHMNQMNYPHDIDIILRRNVDILQQWIEQKKGPFAPDFIKVWKERYKKIRQY",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "ligand": {
+    "ligand": "CCD_ATP",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]

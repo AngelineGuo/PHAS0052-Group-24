@@ -1,0 +1,24 @@
+[{
+ "name": "AlphaFold_2F17_A",
+ "modelSeeds": [
+  "1029256200"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "MGSSHHHHHHSSGLVPRGSHMEHAFTPLEPLLPTGNLKYCLVVLNQPLDARFRHLWKKALLRACADGGANHLYDLTEGERESFLPEFVSGDFDSIRPEVKEYYTKKGCDLISTPDQDHTDFTKCLQVLQRKIEEKELQVDVIVTLGGLGGRFDQIMASVNTLFQATHITPVPIIIIQKDSLIYLLQPGKHRLHVDTGMEGSWCGLIPVGQPCNQVTTTGLKWNLTNDVLGFGTLVSTSNTYDGSGLVTVETDHPLLWTMAIKS",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "ligand": {
+    "ligand": "CCD_ATP",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]

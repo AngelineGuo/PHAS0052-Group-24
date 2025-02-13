@@ -1,0 +1,24 @@
+[{
+ "name": "AlphaFold_5TRD_A",
+ "modelSeeds": [
+  "1663728389"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "MSLETDDQYYRAIKKIKEAAEASNRAYLTSSKLADMLGISQQSASRIIIDLEKNGYITRTVTKRGQILNITEKGLDVLYTEFADLSRILAIKNNVVITGTVTSGMGEGRYYVARKQYIIQFQEKLGIIPYLGTLNIKVDQASLPELRKIRGFRGIHIEGFKTEDRTFGSVKAFPAKIQNIPCFVIMPERTVYTDVIEIISDKYLREEINLHDGDRVSVEVYTEGHHHHHH",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "ligand": {
+    "ligand": "CCD_ATP",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]

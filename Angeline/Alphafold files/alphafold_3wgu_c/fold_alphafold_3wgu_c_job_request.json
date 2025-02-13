@@ -1,0 +1,24 @@
+[{
+ "name": "AlphaFold_3WGU_C",
+ "modelSeeds": [
+  "1154746625"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "MAGLSTDDGGSPKGDVDPFYYDYETVRNGGLIFAALAFIVGLIIILSKRLRCGGKKHRPINEDEL",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "ligand": {
+    "ligand": "CCD_ATP",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]

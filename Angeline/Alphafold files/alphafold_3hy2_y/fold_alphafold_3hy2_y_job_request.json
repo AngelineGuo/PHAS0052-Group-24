@@ -1,0 +1,24 @@
+[{
+ "name": "AlphaFold_3HY2_Y",
+ "modelSeeds": [
+  "1316402137"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "GHPMSIHSGRIAAVHCVPLSVLIRPLPSVLDPAKVQSLVDTIREDPDSVPPIDVLWIKGAQGGDYFYSFGGAHRYAAYQQLQRETIPAKLVQSTLSDLRVYLGASTPDLQ",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "ligand": {
+    "ligand": "CCD_ATP",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]

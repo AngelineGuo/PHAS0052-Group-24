@@ -1,0 +1,24 @@
+[{
+ "name": "AlphaFold_5W51_E",
+ "modelSeeds": [
+  "2088863387"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "MSDYEEAFNDGNENFEDFDVEHFSDEETYEEKPQFKDGETTDANGKTIVTGGNGPEDFQQHEQIRRKTLKEKAIPKDQRATTPYMTKYERARILGTRALQISMNAPVFVDLEGETDPLRIAMKELAEKKIPLVIRRYLPDGSFEDWSVEELIVDL",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "ligand": {
+    "ligand": "CCD_ATP",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]

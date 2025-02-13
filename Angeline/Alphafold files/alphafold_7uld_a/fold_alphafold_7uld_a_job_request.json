@@ -1,0 +1,24 @@
+[{
+ "name": "AlphaFold_7ULD_A",
+ "modelSeeds": [
+  "972791103"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "GAMRVEVFPVEGLPLIKEGDDLAELISSRVRFEDGDVLVVCSTVISKAEGRIRRLEEFNPSERAKEIAARIGKPAEFVQAVLEESEEVLLDFPFLLVKAKFGNVCVNAGIDASNVEEGSLLLPPLDPDGSAEKLRRRILELTGKRVGVIITDTNGRCFRRGVVGFAIGISGVKAMKDWIGRKDLYGRELEVTVECVADEIAAFANLLMGEGGDGIPAVVVRGLNVAGEGSMEEIYRSEEEDVIRRCLKRCL",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  },
+  {
+   "ligand": {
+    "ligand": "CCD_ATP",
+    "count": 1
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]
