@@ -7,5 +7,5 @@
     "Precision": 0.0,
     "Recall": 0.0,
     "F1-Score": 0.0,
-    "AUC": NaN
+    "AUC": 0.0
 }
