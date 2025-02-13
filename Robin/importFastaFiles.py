@@ -11,7 +11,7 @@ fasta_output_dir = os.path.join(files_dir, "fasta")
 os.makedirs(fasta_output_dir, exist_ok=True)
 
 # Read representatives from a CSV file
-csv_file = os.path.join(files_dir, "representatives.csv")
+csv_file = os.path.join(files_dir, "all_proteins.csv")
 representatives = []
 
 try:
