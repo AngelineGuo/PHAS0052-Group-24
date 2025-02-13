@@ -1,0 +1,11 @@
+{
+    "True Positives": 5,
+    "False Positives": 12,
+    "True Negatives": 361,
+    "False Negatives": 16,
+    "Accuracy": 0.929,
+    "Precision": 0.294,
+    "Recall": 0.238,
+    "F1-Score": 0.263,
+    "AUC": 0.843
+}

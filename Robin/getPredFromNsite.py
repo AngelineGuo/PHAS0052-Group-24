@@ -3,10 +3,12 @@ import time
 import requests
 import re
 
-# Define directories
+# Define directories and get fasta files
 base_dir = os.path.abspath(os.path.dirname(__file__))  # Directory containing this script
-pdb_files_dir = os.path.join(base_dir, "pdb_files")  # Directory containing the PDB files
-fasta_files = [os.path.join(pdb_files_dir, f) for f in os.listdir(pdb_files_dir) if f.endswith(".fasta")]
+fasta_files_dir = os.path.join(base_dir, "..", "Files", "fasta")  # Directory containing the fasta files
+fasta_files = []
+for f in os.listdir(fasta_files_dir):
+    fasta_files.append(os.path.join(fasta_files_dir, f))
 
 # URL for form submission (action URL from the form)
 url = "http://biomine.cs.vcu.edu/servers/biomine.php?name=NsitePred"
@@ -57,7 +59,7 @@ def submit_fasta(file_path, email):
                     # Download the CSV file
                     csv_response = requests.get(result_csv_url)
                     if csv_response.status_code == 200:
-                        csv_file_path = file_path.replace(".fasta", "_results.csv")
+                        csv_file_path = file_path.replace(".fasta", "_results.csv").replace("fasta", "Nsite_predictions")
                         with open(csv_file_path, "wb") as f:
                             f.write(csv_response.content)
                         print(f"CSV file saved for {file_path}")
