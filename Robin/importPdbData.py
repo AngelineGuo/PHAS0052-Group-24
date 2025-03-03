@@ -4,9 +4,6 @@ import csv
 from Bio.PDB import PDBList
 from Bio.Data.IUPACData import protein_letters_3to1
 
-# Use the HTTPS server to avoid old FTP mirror issues
-pdb_list = PDBList(server="https://files.rcsb.org/")
-
 # Define current Dir as base path
 base_path = os.path.abspath(os.path.dirname(__file__))
 
@@ -15,7 +12,7 @@ pdb_output_dir = os.path.join(base_path, "..", "Files", "pdb")
 os.makedirs(pdb_output_dir, exist_ok=True)
 
 # Read representatives from a CSV file
-csv_file = os.path.join(base_path, "..", "Files", "representatives.csv") # Change to complete file path later
+csv_file = os.path.join(base_path, "..", "Files", "all_proteins.csv")
 representatives = []
 
 # Extract the pdb ids and chain ids from the csv file
