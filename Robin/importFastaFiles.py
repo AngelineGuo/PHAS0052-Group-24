@@ -18,7 +18,7 @@ try:
     with open(csv_file, "r") as file:
         reader = csv.DictReader(file)
         for row in reader:
-            pdb_chain_combined = row["pdb_id"]
+            pdb_chain_combined = row["pdb_id"]     # Example: 1a2bA
             pdb_id = pdb_chain_combined[:4].lower()  # First 4 characters for the PDB ID
             chain_id = pdb_chain_combined[4:].upper()  # Remaining characters for the chain ID
             representatives.append((pdb_id, chain_id))
@@ -34,7 +34,7 @@ for pdb_id, chain in representatives:
     fasta_url = f"https://www.rcsb.org/fasta/entry/{pdb_id}"
     try:
         response = requests.get(fasta_url)
-        response.raise_for_status()
+        response.raise_for_status()    # Raise an exception for error codes
         fasta_data = response.text
 
         # Split the response string into paragraphs
